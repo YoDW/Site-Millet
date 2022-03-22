@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Millet, psychanalyste I Consultation thérapeutique à Nîmes</title>
+    <link rel="icon" href="images/mini.png">
+    <meta name="description"
+        content="David Millet, psychanalyste, vous accompagne dans vos problèmes de vie quotidienne au cours de consultations et thérapies personnalisées. Prenez rendez-vous en ligne.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="myNavbar">
+
+<!-- NAVBAR -->
+    <nav id="myNavbar" class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a href="index.html"><img src="images/logo.png" alt="David Millet Psychanaliste" class="logo" width="200px"
+                height="80px"></a>
+        <div class="container-fluid">
+            <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                    <a class="nav-link" href="presentation.html">Qui suis-je ?</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Consultations</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Psychanalyse</a></li>
+                            <li><a class="dropdown-item" href="#">Hypnose</a></li>
+                            <li><a class="dropdown-item" href="#">Thérapie individuelle</a></li>
+                            <li><a class="dropdown-item" href="#">Thérapie de couple</a></li>
+                            <li><a class="dropdown-item" href="#">Sexothérapie</a></li>
+                        </ul>
+                    </li>
+                    <a class="nav-link" href="#cab">Le Cabinet</a>
+                    <a class="nav-link" href="#dist">Consultation à distance</a>
+                    <a class="nav-link" href="#faq">FAQ</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+            <button id="btnTel" type="tel" class="btn">
+                <a href="tel:+33769834118">07 69 83 41 18</a>
+            </button>
+        </div>
+    </nav>
+
+<!-- SECTION 1 ACCUEIL -->
+    <section id="accueil">
+        <header class="container">
+            <div class="row">
+                <div class="txt col-md-8 p-5">
+                    <h1><strong>Un psychanaliste à votre écoute pour votre bien-être,</strong> à Nîmes</h1>
+                    <div class="divider"></div>
+                    <h3 class="rdv">Prenez rendez-vous avec votre thérapeute :<br><br></h3>
+                        <div>
+                            <button id="btnTel" type="text" class="btn">
+                                <a href="tel:+33769834118">07 69 83 41 18</a>
+                            </button>
+                        </div>
+                        <br>
+                        <div>
+                            <a href="https://www.doctolib.fr/psychanalyste/beziers/david-millet?pid=practice-186005" target="_blank"
+                            class="btnrdv text-center">Prendre un RDV en ligne</a>
+                        </div>
+                </div>  
+                            
+<!--                 </div>
+ -->                <div class="img col-md-4">
+                    <img src="images/portrait.png" alt="David Millet psychanalyste" class="w-75">
+                </div>
+            </div>
+        </header>
+
+        <div id="covid" class="w-75 mb-4">
+            <h3 class="text-center">COVID 19</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li>Respect les distances de sécurité</li>
+                        <li>Porter un masque et se laver les mains avec du gel <br>(disponible à l’entrée du cabinet)
+                        </li>
+                        <li>Protection sur le canapé changée à chaque patient</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li>Accueil uniquement sur rendez-vous</li>
+                        <li>Consultations à distance possibles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <!-- INTRO -->    
+        <div class="container-fluid intro" id="intro">
+            <div class="row">
+                <div class="txtIntro">
+                    <div class="">
+                        <img src="images/RS21765_40026-scr-1920w.png" alt="Image famille" class="w-25">
+                    </div>
+                        <div id="txtIntro">
+                            <h3><strong>David Millet : <br></strong></h3>
+                            <h4>Un psychanalyste pour vous aider à vous sentir mieux.<br></h4>
+                            <p>Vous êtes un adulte, un adolescent (à partir de 15 ans) ou bien un couple qui va mal ? Votre vie
+                            quotidienne en est perturbée et vous ne trouvez plus de solution pour avancer ?
+                            En tant que <strong>professionnel certifié</strong>, je vous propose de suivre une thérapie ou de
+                            bénéficier d'un accompagnement psychologique adapté à votre situation pour retrouver le plaisir de
+                            vivre.
+                            Il est tout à fait normal et c’est faire preuve d’intelligence de savoir demander de l’aide en cas
+                            de difficultés ou de mal-être afin de retrouver le bien-être !
+                            <br>Contactez-moi au 07 69 83 41 18 pour prendre rendez-vous pour une consultation dans mon cabinet
+                            à Nîmes ou à distance en cette période de COVID.
+                            </p>
+                                <div class="btnconsult">
+                                    <div class="col text-center">
+                                        <a href="#consultations">Découvrez les types <br> de consultation</a>
+                                    </div>
+                                </div>    
+                        </div>
+                </div>
+                     
+            </div>
+
+            <!-- BADGES 1 -->
+            <div class="badges text-center p-2" id="badges">
+                <div class="row">    
+                    <div class="col-md-3">
+                        <a href="#Presentation"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+                        </svg><br> Qui suis-je ?</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#consults"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                        <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                        </svg><br> Consultations</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#cab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open-fill" viewBox="0 0 16 16">
+                        <path d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2h.5a.5.5 0 0 1 .5.5V15h-1V2zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+                        </svg><br> Le cabinet</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#faq"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                        </svg><br> FAQ</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <!-- TEXTE 2 -->
+        <div class="container-fluid txt2">
+            <div>
+                <div class="">
+                    <img src="images/RS15202_42236-scr-1920w.webp" alt="image main" class="w-50">
+                </div>
+                <div id="txt2">
+                    <h4>Retrouvez le plaisir de vivre grâce à un professionnel certifié.</h4>
+<!--                     <div class="divider2"></div>
+ -->                    <p>À la différence du <i>psychiatre </i>(médecin qui a fait des études de médecine et qui peut prescrire des médicaments) 
+                    ou du <i>psychologue </i>(professionnel qui a fait des études de psychologie), en tant que psychanalyste, j’ai moi-même 
+                    dû suivre une analyse et je suis <strong>contrôlé chaque année </strong>avec remise d’une certification pour attester de mon 
+                    aptitude constante à vous recevoir.<br><br>
+                    Spécialiste de la psychanalyse freudienne, je dispose de la <strong><a href="http://www.psychanalyse.fr/">certification FFDP 
+                    (Fédération Freudienne De Psychanalyse)</a></strong>, qui regroupe des thérapeutes qualifiés et passionnés par le domaine 
+                    de la psychanalyse.
+                    <br>
+                    Je suis à votre écoute dans le respect, la discrétion et la bienveillance, afin que vous puissiez retrouver 
+                    votre confort de vie au quotidien et dénouer les causes de votre mal-être.
+                    </p>
+
+                        <div class="btnabout">
+                            <div class="col text-center">
+                                <a href="#about">En savoir plus sur moi</a>
+                            </div>
+                        </div> 
+                </div>                    
+            </div>
+        </div>
+
+        <!-- BADGES 2 -->
+        <div class="container">
+            <div class="text-center badges2">
+                <div class="row">    
+                    <div class="col-md-3"  id="badges2">
+                        <strong><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-patch-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                        <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z"/>
+                        </svg><br>Certifié par la Fédération Freudienne De Psychanalyse</strong>
+                    </div>
+                    <div class="col-md-3" id="badges2">
+                        <strong><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                            <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                            <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+                          </svg><br>7 ans de formation à l’Institut de Psychanalyse Nîmois</strong>
+                    </div>
+                    <div class="col-md-3" id="badges2">
+                        <strong><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-ear" viewBox="0 0 16 16">
+                            <path d="M8.5 1A4.5 4.5 0 0 0 4 5.5v7.047a2.453 2.453 0 0 0 4.75.861l.512-1.363a5.553 5.553 0 0 1 .816-1.46l2.008-2.581A4.34 4.34 0 0 0 8.66 1H8.5ZM3 5.5A5.5 5.5 0 0 1 8.5 0h.16a5.34 5.34 0 0 1 4.215 8.618l-2.008 2.581a4.555 4.555 0 0 0-.67 1.197l-.51 1.363A3.453 3.453 0 0 1 3 12.547V5.5ZM8.5 4A1.5 1.5 0 0 0 7 5.5v2.695c.112-.06.223-.123.332-.192.327-.208.577-.44.72-.727a.5.5 0 1 1 .895.448c-.256.513-.673.865-1.079 1.123A8.538 8.538 0 0 1 7 9.313V11.5a.5.5 0 0 1-1 0v-6a2.5 2.5 0 0 1 5 0V6a.5.5 0 0 1-1 0v-.5A1.5 1.5 0 0 0 8.5 4Z"/>
+                          </svg><br>Écoute – Respect – Bienveillance – Discrétion</strong>
+                    </div>
+                    <div class="col-md-3" id="badges2">
+                        <strong><br><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-heart-half" viewBox="0 0 16 16">
+                            <path d="M8 2.748v11.047c3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                          </svg><br>Spécialiste en sexothérapie</strong>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="btncontact">
+            <div class="text-center">
+                <a href="#contact">Contactez-moi !</a>
+            </div>
+        </div>
+    
+
+        <!-- TEXTE 3 -->
+        <div class="container" id="bloctxt3">
+            <div class="row">
+                <div class="txt3">
+                    <div class="">
+                        <img src="images/RS13041_42016-scr-1920w.webp" class="w-50">
+                    </div>
+                        <div id="txtIntro">
+                            <h4><strong>Savoir demander de l’aide</strong> à un thérapeute bienveillant.</h4>
+                            <div class="divider"></div>
+                            <p>Vous êtes un adulte, un adolescent (à partir de 15 ans) ou bien un couple qui va mal ? Votre vie
+                            quotidienne en est perturbée et vous ne trouvez plus de solution pour avancer ?
+                            En tant que <strong>professionnel certifié</strong>, je vous propose de suivre une thérapie ou de
+                            bénéficier d'un accompagnement psychologique adapté à votre situation pour retrouver le plaisir de
+                            vivre.
+                            Il est tout à fait normal et c’est faire preuve d’intelligence de savoir demander de l’aide en cas
+                            de difficultés ou de mal-être afin de retrouver le bien-être !
+                            <br>Contactez-moi au 07 69 83 41 18 pour prendre rendez-vous pour une consultation dans mon cabinet
+                            à Nîmes ou à distance en cette période de COVID.
+                            </p>
+                                <div class="btnconsult">
+                                    <div class="col text-center">
+                                        <a href="#faq">Trouvez les réponses à vos questions</a>
+                                    </div>
+                                </div>    
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- CAROUSSEL -->
+        <div class="container-fluid m-5" id="carouselBloc">
+            <div class="container" id="carousel">
+                <div id="mycarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <h3>"Regardez moi ça !"</h3>
+                            <h4>C'est vraiment génial !</h4>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <h3>"ou encore ça !!"</h3>
+                            <h4>Vraiment étonnant</h4>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <h3>"Et la c'est bientot fini..."</h3>
+                            <h4>Quel dommage</h4>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <h3>"On va quand même essayer d'en faire un dernier"</h3>
+                            <h4>oh oui !!!</h4>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="btnavis">
+                    <div class="col text-center">
+                        <a href="https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fg.page%2Fr%2FCVJJ3e-HUNKGEAg%2Freview&data=04%7C01%7Cdthoyer%40solocal.com%7Ceb1db100bc084ca6e53808d8fffacd06%7Cee6c37286c254201b1fb79cbe99342ab%7C0%7C0%7C637540799927293448%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=BKYF4Yl2s3eLqAh6gelG2C3oae6w4P39LWC5s6RUPDg%3D&reserved=0
+                        ">Donnez votre avis pour Nîmes</a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    
+    <!-- TEXTE 4 -->
+    <div class="container" id="bloctxt4">
+        <div class="row">
+            <div class="txt4">
+                <div class="">
+                    <img src="images/main.webp" class="w-50">
+                </div>
+                    <div id="txtIntro">
+                        <h4><strong>
+                            Je vous accueille sans jugement 
+                            </strong> à mon cabinet pour votre psychothérapie.</h4>
+                        <div class="divider"></div>
+                        <p>Je suis à votre disposition pour vous accueillir sur rendez-vous, dansmon cabinet de Nîmes, ou bien à distance si nécessaire en cette période de COVID, pour échanger sur vos difficultés et découvrir et soulager les raisons de votre mal-être. <br><br> Entamer une <strong>psychothérapie</strong> est un véritable moyen pour retrouver le bien-être ! Pour me consulter dans les meilleurs délais ou pour avoir des renseignements complémentaires concernant l'approche analytique, contactez-moi.                   
+                        </p>
+                            <div class="btnconsult">
+                                <div class="col text-center">
+                                    <a href="#cab">Sollicitez mon cabinet</a>
+                                </div>
+                            </div>    
+                    </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h1>DAVID MILLET</h1>
+                <button id="btnTel" type="text" class="btn">
+                    <a href="tel:+33769834118">07 69 83 41 18</a>
+                </button>
+            </div>
+            <div class="col"><h2>Nîmes</h2>
+                <p>55 allée de l'Argentine
+                    immeuble Alphatis, Bâtiment C1 1er étage
+                    30900 Nîmes
+                </p>
+                <p>
+                    Horaires* :
+                    Lundi, mardi, jeudi de 8:00 à 21:00
+                    *sur RDV uniquement
+                </p>            
+            </div>
+            <div class="col">
+                <p>
+                    Moyens de Paiements :
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.736233404097!2d4.3542249!3d43.8198303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b42c55adf14687%3A0xa1eeef09c65f7c!2s55%20All.%20de%20l&#39;Argentine%2C%2030900%20N%C3%AEmes!5e0!3m2!1sfr!2sfr!4v1647511350108!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="mt-4">
+                55 allée de l'Argentine<br>
+                immeuble Alphatis, <br>Bâtiment C1 1er étage <br>
+                30900 Nîmes
+            </div>
+        </div>
+        <div class="text-center mt-5 text-dark fw-bolder">
+            © 2022 - Tous droits réservés - DAVID MILLET
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
